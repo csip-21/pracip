@@ -1,0 +1,13 @@
+18:- select name from student where marks>50;
++-----------+
+| name      |
++-----------+
+| subir     |
+| somyadeep |
+| krish     |
++-----------+
+3 rows in set (0.00 sec)
+
+17:- delete from student;
+Query OK, 3 rows affected (0.01 sec)
+
