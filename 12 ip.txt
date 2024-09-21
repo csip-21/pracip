@@ -61,3 +61,40 @@ mysql> desc stud;
 | 103        | himanshi |    430 |
 | 104        | payal    |    480 |
 +------------+----------+--------+
+
+
+
+
+14:- create table student
+     (student_id varchar(20) primary key not null,
+      name varchar(20),
+      marks int
+      );
+
+
+ show tables;
++-----------------+
+| Tables_in_xiics |
++-----------------+
+| items           |
+| student         |
++-----------------+
+2 rows in set (0.01 sec)
+
+15:- select * from student;
++------------+-----------+-------+
+| student_id | name      | marks |
++------------+-----------+-------+
+| 112        | subir     |    89 |
+| 113        | somyadeep |    56 |
+| 114        | krish     |    78 |
++------------+-----------+-------+
+3 rows in set (0.00 sec)
+
+ 16:- select * from student where marks>80;
++------------+-------+-------+
+| student_id | name  | marks |
++------------+-------+-------+
+| 112        | subir |    89 |
++------------+-------+-------+
+
