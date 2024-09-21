@@ -1,5 +1,5 @@
 create table student
-(roll not null primary key,
+(roll int not null primary key,
 name varchar(20),
 city varchar(10),
 sex char(1));
